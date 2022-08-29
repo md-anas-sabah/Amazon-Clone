@@ -1,0 +1,87 @@
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* height: 100vh; */
+}
+.login__logo > h1 {
+  font-family: "Splash";
+  letter-spacing: 3px;
+}
+.login__input {
+  display: flex;
+  flex-direction: column;
+}
+.login__input > label {
+  font-size: 30px;
+  font-weight: 500;
+}
+.login__input > p {
+  font-size: 17px;
+  font-weight: 500;
+  color: grey;
+}
+.login__input > input {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  height: 2rem;
+  outline: none;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.login__input > button {
+  height: 35px;
+  font-size: 15px;
+  color: grey;
+  background-color: rgb(238, 238, 89);
+  border-radius: 4px;
+  border: thin white;
+  cursor: pointer;
+}
+
+.login__input > button:hover {
+  background-color: yellow;
+  color: black;
+}
+.login__terms > p {
+  width: 245px;
+}
+.login__terms > p > a {
+  font-weight: 700;
+}
+hr {
+  height: 1px;
+  width: 50%;
+}
+.form__signUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form__signUp > p {
+  margin-top: -5px;
+  font-size: 15px;
+}
+.form__signUp > button {
+  height: 35px;
+  width: 19rem;
+  font-size: 15px;
+  color: grey;
+  background-color: rgb(238, 238, 89);
+  border-radius: 4px;
+  border: thin white;
+  cursor: pointer;
+}
+.form__signUp > button:hover {
+  background-color: yellow;
+  color: black;
+}
+.form__signUp > button > a {
+  text-decoration: none;
+  color: grey;
+}
+.form__signUp > button > a:hover {
+  background-color: yellow;
+  color: black;
+}

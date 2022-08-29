@@ -1,17 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Splash&display=swap");
+
 .header {
   background-color: #131921;
   display: flex;
+
   align-items: center;
   position: sticky;
   top: 0;
   z-index: 100;
 }
-
+a {
+  text-decoration: none;
+}
 .header__logo {
   width: 100px;
   object-fit: contain;
   margin: 0 20px;
   margin-top: 18px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: yellow;
+  font-family: "Splash";
+  font-size: 20px;
+  letter-spacing: 2px;
 }
 .header__search {
   display: flex;
@@ -26,7 +37,8 @@
 .header__searchIcon {
   padding: 5px;
   height: 22px !important;
-  background-color: #cd9042;
+  /* background-color: #cd9042; */
+  background-color: yellow;
 }
 .header__nav {
   display: flex;

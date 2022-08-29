@@ -13,11 +13,12 @@ function Header() {
   return (
     <nav className="header">
       <Link to="/">
-        <img
+        {/* <img
           src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
           className="header__logo"
           alt="logo"
-        />
+        /> */}
+        <h1 className="header__logo">AnimeFlex</h1>
       </Link>
 
       <div className="header__search">
